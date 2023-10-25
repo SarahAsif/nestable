@@ -1,0 +1,141 @@
+body {
+    background-color: white
+}
+
+.main {
+    font-family: "Dosis";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.parent {
+    width: 800px;
+}
+
+.svg {
+    height: 50vh;
+}
+
+.child button {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.9px);
+    -webkit-backdrop-filter: blur(12.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    font-family: "Dosis";
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container {
+    margin: 10px;
+    width: 500px;
+    height: 10px;
+}
+
+.bacha {
+    background: rgba(213, 206, 255, 0.71);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    color: Black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.bacha svg {
+    width: 25px;
+    margin: 10px;
+    fill: red;
+    cursor: pointer;
+}
+
+.bacha svg:nth-child(1) {
+    width: 25px;
+    margin: 10px;
+    fill: green;
+}
+
+.right {
+    margin-top: 40px;
+    width: 50%;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    animation: wavemover 3s infinite alternate linear;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parent input {
+    font-family: "Dosis";
+    font-size: 2.2rem;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-shadow: 1px 1px #666, 3px 3px #000;
+    width: 250px;
+    height: 35px;
+    padding: 20px;
+    overflow: hidden;
+    color: #fff;
+    border: 10px solid #bdb8d6;
+    background: linear-gradient(#0e0e0e 65%, #030303 66%) top .03em center / 100% .30em repeat-y;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+.bookName {
+    font-size: medium;
+    padding-right: 10px;
+    color: #668;
+}
+
+h1 {
+    color: black;
+    font-size: 3.6em;
+    max-width: 7ch;
+    opacity: .8;
+    text-shadow: 1px 1px #666, 3px 3px gray;
+
+}
+
+@keyframes wavemover {
+    100% {
+        transform: translateX(-30px);
+    }
+}
+
+.bookSingle {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.bookSingle:hover {
+    color: darkmagenta;
+}
