@@ -1,25 +1,14 @@
 {
-  "sections": [
+  "users": [
     {
       "id": 1,
-      "title": "Introduction",
-      "subsections": [
-        {
-          "id": 101,
-          "title": "Intro to Platform",
-          "subsections": [
-            {
-              "id": 1011,
-              "title": "Intro to Platform (Menu Bar)"
-            }
-          ]
-        },
-        {
-          "id": 102,
-          "title": "Intro to Book Writing",
-          "subsections": []
-        }
-      ]
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password2"
     }
   ]
 }
